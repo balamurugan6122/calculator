@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <input id="num1" type="text" placeholder="Enter number">
+        <input id="num2" type="text" placeholder="Enter number">
+        <select id="operator">
+            <option value="add">Addition(+)</option>
+            <option value="subtract">Subtraction(-)</option>
+            <option value="multiply">Multiplication(*)</option>
+            <option value="divide">Division(/)</option>
+            <option value="exponent">Exponentiation(pow)</option>
+            <option value="modulus">Modulus(%)</option>
+            <option value="sqrt">Square Root(sq rot)</option>
+        </select>
+        <div>
+            <input type="radio" name="output" value="whole" id="whole" checked>
+            <label for="whole">Whole Value</label>
+            <input type="radio" name="output" value="float" id="float">
+            <label for="float">Float Value</label>
+        </div>
+        <button id="calculate">Calculate</button>
+        <p id="result">Result: </p>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

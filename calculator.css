@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(111, 110, 110);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding: 50px;
+    background: #f0f0f0;
+    border: 3px solid #0b0b0b;
+    border-radius: 5px;
+}
+
+input, select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+p {
+    margin-top: 20px;
+}
